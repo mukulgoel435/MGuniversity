@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="images/mguniversity.png"></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="About.html">ABOUT</a></li>
+              <li><a href="course.html">COURSE</a></li>
+              <li><a href="Blog.html">BLOG</a></li>
+              <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+<h1>Our Courses</h1>
+
+      </section>
+<!-------- course --------->
+
+<section class="course">
+  <h1>Courses We Offer</h1>
+  <p>Various types of courses for the students.</p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>Intermediate</h3>
+      <p>We provide Various types of Intermediate course for betterment of our students skills in various domains like C,C++,Python,HTML,css
+      and various skills developing courses.</p>
+    </div>
+    <div class="course-col">
+      <h3>Degree</h3>
+      <p>We give various degree to our student for different types of multiple fields like in Engineering: Computer Science, Mechanical, Civil etc
+      and commerce, arts.This helps to mmake a  better carrer in this fields.</p>
+    </div>
+    <div class="course-col">
+      <h3>Post Graduation</h3>
+      <p>Provide various master degrees to  student who completed there first degree to further have advancement on that field.</p>
+    </div>
+  </div>
+</section>
+
+<!-------- facilities --------->
+
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>Some of the best facilties are College provide for betterment of our student.</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="images/library.png" alt="">
+      <h3>World Class Library</h3>
+      <p>Biggest Library with 1+ lakh Books, Magazine to Widen the knowledge of our students.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="images/basketball.png" alt="">
+      <h3>Larget Play Ground</h3>
+      <p>Large playground with Every Sports facilities provided to student.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="images/cafeteria.png" alt="">
+      <h3>Tasty and Healthy Food</h3>
+      <p>Multiple large cafeteria , providing hygiene and tasty food for our student.</p>
+    </div>
+  </div>
+</section>
+
+<!-------- Footer --------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>This is a place of discovery, creativity and innovation Located in London, New York and Washington.<br> Giving Wide Knowledge and Future Carrer</p>
+   <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> by Mukul Goel</p>
+</section>
+
+
+<!-------------------Javascript for toggle Menu------------------->
+      <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+          navlinks.style.right = "0";
+        }
+        function hidemenu(){
+          navlinks.style.right="-200px";
+        }
+      </script>
+  </body>
+</html>
